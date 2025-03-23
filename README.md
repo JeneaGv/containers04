@@ -204,3 +204,10 @@ Acesta controlează dimensiunea totală a datelor trimise într-o formulă, incl
 Securitate: Deși supervisorul este folosit pentru a controla procesele, nu există configurări specifice pentru a proteja serverul de atacuri comune, cum ar fi vulnerabilitățile de tipul SQL injection, XSS, etc. Nu există setări suplimentare pentru protecția bazei de date sau pentru a izola mai bine aplicațiile.
 
 Backup pentru MariaDB: Imaginea nu include opțiuni sau configurații pentru backup-ul automat al bazei de date MariaDB. Ar fi util să implementam un mecanism de backup pentru a proteja datele importante.
+
+# Concluzii 
+În ansamblu,scopul a fost realizat cu succes, demonstrând capacitatea de a configura și lansa un container Docker pentru a găzdui un site (in cazul nostru WordPress). 
+
+Cu toate acestea, există mai multe îmbunătățiri care ar putea fi aduse în ceea ce privește securitatea, backup-ul și performanța. 
+
+Aceste îmbunătățiri sunt esențiale pentru a face mediul de producție mai robust și mai sigur.
